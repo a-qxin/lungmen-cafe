@@ -1,0 +1,346 @@
+html, body {
+    margin:0;
+    padding:0;
+    width:100%;
+    font-family: "Roboto" !important;
+    background:#0f0f0f !important;
+    color:#fff !important;
+}
+
+.whitespace {
+    width:100%;
+    height:100px;
+}
+
+@media(max-width:768px) {
+    .whitespace {
+        display:none;
+    }
+}
+
+/* ----- zTypewriter Effect ----- */
+
+.line {
+    width:24em;
+    top:50%;
+    margin:auto;
+    border-right:2px solid rgba(255,255,255,0.75);
+    text-align:center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+}
+
+.anim-typewriter {
+    animation:typewriter 4s steps(40) 1s 1 normal both,
+    blinkTextCursor 500ms steps(40) infinite normal;
+}
+
+@keyframes typewriter {
+    from {
+        width:0;
+    }
+    to {
+        width: 18em;
+    }
+}
+
+@media(max-width:768px) {
+    @keyframes typewriter {
+        from { 
+            width:0;
+        }
+        to {
+            width: 17em;
+        }
+    }
+}
+
+@keyframes blinkTextCursor {
+    from {
+        border-right-color: rgba(255,255,255,0.75);
+    }
+    to {
+        border-right-color:transparent;
+    }
+}
+
+/* ----- Navigation -----*/
+
+nav {
+    width:100%;
+    background:#0f0f0f;
+    height: 80px;
+    position: fixed;
+    z-index:1;
+}
+
+nav #name {
+    float:left;
+    display:block;
+    margin-left: 82px;
+    line-height:80px;
+    font-weight:bold;
+}
+
+nav #name a {
+    color:#fff;
+    transition:all 0.3s ease-out;
+}
+
+nav #name a:hover {
+    text-decoration: none;
+}
+
+nav #menu {
+    float: left;
+    right: 80px;
+    position:fixed;
+}
+
+nav #menu li {
+    padding-left:40px;
+    display:inline-block;
+    cursor:pointer;
+    font-weight: 300;
+    line-height: 80px;
+    position: relative;
+    transition:all 0.3s ease-out;
+}
+
+nav #menu li a:hover {
+    text-decoration:none;
+}
+
+#toggle {
+    position: absolute;
+    right:30px;
+    top:20px;
+    font-weight: 300;
+    z-index:2;
+    width:30px;
+    height:30px;
+    cursor:pointer;
+    float:right;
+    transition:all 0.3s ease-out;
+    visibility: hidden;
+    opacity:0;
+}
+
+.close-btn {
+    position: absolute;
+    right: 16px;
+    font-weight: 300;
+    z-index: 2;
+    cursor: pointer;
+    top:-2px;
+    line-height: 80px;
+}
+
+#resize {
+    z-index:1;
+    top:0;
+    position:fixed;
+    background:#0f0f0f;
+    width:100%;
+    height:100%;
+    visibility:hidden;
+    opacity:0;
+    transition:all 1s ease-out;
+}
+
+#resize #menu {
+    height:90px;
+    position:absolute;
+    left:45%;
+    transform: translateX(-40%);
+    text-align:center;
+    display:table-cell;
+    vertical-align: center;
+}
+
+#resize #menu li {
+    display: block;
+    text-align:center;
+    padding: 10px 0;
+    font-size: 50px;
+    min-height: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+#resize li:nth-child(1) {
+    margin-top:140px;
+}
+
+#resize #menu li a {
+    color:#fff;
+}
+
+#resize #menu li a:hover{
+    text-decoration:none;
+}
+
+#resize.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+@media(max-width:768px) {
+    #toggle {
+        visibility: visible;
+        opacity: 1;
+        margin-top: 6px;
+        margin-right: 4px;
+    }
+
+    nav #brand {
+        margin-left:24px;
+    }
+
+    #menu a {
+        font-size:20px;
+        font-weight:300;
+    }
+
+    #resize li span {
+        font-weight: bolder;
+    }
+
+    nav #menu {
+        display: none;
+    }
+}
+
+@media(min-width:768px) {
+    #resize {
+        visibility: hidden !important;
+    }
+}
+
+/* ----- Hero ----- */
+
+.hero {
+    height:100vh;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.hero h1 {
+    font-weight:lighter;
+    text-align: center;
+    letter-spacing: -2px;
+    line-height: 58px;
+}
+
+@media(max-width:768px) {
+    .header h1 {
+        font-size:26px;
+    }
+}
+
+/* ----- Scroll Down Icon Animation -----*/
+.scroll-down {
+    position: absolute;
+    left: 50%;
+    bottom: 100px;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    z-index: 0;
+    text-decoration: none;
+    text-shadow: 0;
+    width:13px;
+    height:13px;
+    border-bottom:2px solid #fff;
+    border-right:2px solid #fff;
+    -webkit-transform:translate(-50%,0) rotate(45deg);
+    animation: fade_move_down 3s cubic-bezier(0.19, 1, .22, 1) infinite;
+}
+
+@keyframes fade_move_down {
+    0% {
+        transform: translate(0,-20px) rotate(45deg);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        transform:translate(0,20px) rotate(45deg);
+        opacity: 0;
+    }
+}
+
+/* ----- Projects ----- */
+
+h6 {
+    text-align: center;
+}
+
+
+.vertical {
+    margin-top: 40px;
+    border-left: 1px solid #fff;
+    height: 80px;
+    position: absolute;
+    left:50%;
+}
+
+/*
+.project {
+    height: 500px;
+}
+
+.project1 {
+    
+} */
+
+/* ----- Footer ----- */
+
+.hr {
+    background: rgba(255,255,255,0.2);
+    height:1px;
+}
+
+.info h4 {
+    font-size:18px;
+    font-weight:lighter;
+}
+
+.info p {
+    color:grey;
+    font-weight: lighter;
+}
+
+.info li {
+    font-weight:lighter;
+    color:#fff;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+#media, #address {
+    text-align: right;
+}
+
+#media ul li {
+    display: inline-block;
+}
+
+@media(max-width:768px) {
+    .info ul {
+        margin: 0 0 0 -22px;
+        padding:0;
+    }
+}
+
+/* work */
+
+/* about */
+
+/* contact */
+
+/* project+ */
