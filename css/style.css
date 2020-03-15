@@ -289,14 +289,98 @@ h6 {
     left:50%;
 }
 
-/*
+
 .project {
     height: 500px;
 }
 
 .project1 {
-    
-} */
+    background: url(https://i.redd.it/xabdiulr0sq31.jpg) 50% 50%;
+    background-size:cover;
+}
+
+.project1:after {
+    content: "arknights cafe.";
+    font-family: "Roboto";
+    font-size: 36px;
+    position: relative;
+    color:#fff;
+    display:block;
+    top:8%;
+    left:-75%;
+    right:0;
+    bottom:0;
+}
+
+.project2 {
+    background: url(https://c.wallhere.com/photos/fb/e5/Arknights_anime_plants_cafe_coffee_donuts_cake_saria_arknights-1774879.jpg!d) 100% 50%;
+    background-size:cover;
+}
+
+.project2:after {
+    content: "rhine lab coffee shop.";
+    font-family: "Roboto";
+    font-size: 36px;
+    position:relative;
+    color: #fff;
+    display:block;
+    top:40%;
+    left:90%;
+    right:0;
+    bottom:0;
+}
+
+.project3 {
+    background: url(https://www.wallpapermaiden.com/wallpaper/19888/download/1280x720/anime-girl-room-building-artwork-painting.jpg) 50% 50%;
+    background-size: cover;
+}
+
+.project3:after {
+    content: "bolivar coffee bean.";
+    font-family: "Roboto";
+    font-size: 36px;
+    position: relative;
+    color: #fff;
+    display:block;
+    top:80%;
+    left:-50%;
+    right:0;
+    bottom:0;
+}
+
+.project4 {
+    /* background: url(https://s26.postimg.cc/xb3xhqojt/03_Restaurant_2-_Night_m.png); */
+    background:url(https://static.zerochan.net/Arknights.full.2240339.jpg) 0% 50%;
+    background-size:cover;
+}
+
+.project4:after {
+    content: "classical colombian design.";
+    font-family: "Roboto";
+    font-size:36px;
+    position:relative;
+    color:#fff;
+    display:block;
+    top:10%;
+    left:90%;
+    right:0;
+    bottom:0;
+}
+
+@media(max-width: 768px) {
+    .project {
+        width: 90% !important;
+        margin: 14px auto;
+    }
+
+    .vertical {
+        display:none;
+    }
+
+    .project1::after, .project2::after, .project3::after, .project4::after {
+        display:none;
+    }
+}
 
 /* ----- Footer ----- */
 
@@ -322,8 +406,52 @@ h6 {
     padding-left: 20px;
 }
 
+#github::before {
+    display:inline-block;
+    content: '';
+    border-radius:100%;
+    height:4px;
+    width:4px;
+    margin-right:6px;
+    background: #3b5998;
+}
+
+#linkedin::before {
+    display:inline-block;
+    content: '';
+    border-radius:100%;
+    height:4px;
+    width:4px;
+    margin-right:6px;
+    background: #fcaf45;
+}
+
+#tw::before {
+    display: inline-block;
+    content: '';
+    border-radius: 100%;
+    height: 4px;
+    width: 4px;
+    margin-right: 6px;
+    background: #55acee;
+}
+
+#yt::before {
+    display: inline-block;
+    content: '';
+    border-radius: 100%;
+    height: 4px;
+    width: 4px;
+    margin-right: 6px;
+    background: #c4302b;
+}
+
 #media, #address {
     text-align: right;
+}
+
+#media ul {
+    list-style:none;
 }
 
 #media ul li {
@@ -339,8 +467,19 @@ h6 {
 
 /* work */
 
-/* about */
+/* ----- about ----- */
+
+.about {
+    height:500px;
+    margin-top:120px;
+}
+
+.image {
+    background: url(https://upload.wikimedia.org/wikipedia/commons/1/1b/Arknights.jpg) no-repeat 50% 15%;
+}
+
 
 /* contact */
 
 /* project+ */
+
