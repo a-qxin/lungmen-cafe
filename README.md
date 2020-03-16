@@ -23,6 +23,15 @@ Simple HTML/CSS/JS-based + Arknights-themed gallery site.
 - [Project4](https://webusstatic.akamaized.net/ark_us_web/pc/img/gallery04.ce1b088c.jpg) via [arknights.global](https://www.arknights.global)
 - [About](https://webusstatic.akamaized.net/ark_us_web/pc/img/gallery14.5c5bf760.jpg) via [arknights.global](https://www.arknights.global)
 
+
+#### TODO
+
+- Project Carousel (Gallery)
+- Operator List
+- Illustrations
+- Links
+- Contact Functionality
+
 —
 
-###### UPDATED 03/15/20
+###### UPDATED 03/16/20
