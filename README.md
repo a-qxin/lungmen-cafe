@@ -28,11 +28,10 @@ https://a-qxin.github.io/lungmen-cafe/
 
 #### TODO
 
-- Project Carousel (Gallery)
+- Carousel x Project Functionality
 - Operator List
 - Illustrations
-- Links
-- Contact Functionality
+- Contact Form Functionality
 
 —
 

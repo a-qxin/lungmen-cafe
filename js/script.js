@@ -31,3 +31,7 @@ TweenMax.staggerFrom("#menu li a", 1, {
 }, 0.1);
 
 new WOW().init();
+
+// bootstrap carousel
+
+$('.carousel').carousel()

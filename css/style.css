@@ -244,6 +244,7 @@ nav #menu li a:hover {
 }
 
 /* ----- Scroll Down Icon Animation -----*/
+
 .scroll-down {
     position: absolute;
     left: 50%;
@@ -399,10 +400,32 @@ h6 {
 }
 
 .info li {
+    padding-left:20px;
+}
+
+.info a:hover {
+    color:grey;
+    text-decoration:none;
+}
+
+.info a {
     font-weight:lighter;
     color:#fff;
     font-size: 18px;
-    padding-left: 20px;
+    -webkit-transition:color .2s ease-in; 
+    -moz-transition:color .2s ease-in; 
+    -o-transition:color .2s ease-in; 
+    transition:color .2s ease-in;
+}
+
+#global::before {
+    display:inline-block;
+    content: '';
+    border-radius:100%;
+    height:4px;
+    width:4px;
+    margin-right:6px;
+    background: grey;
 }
 
 #github::before {
@@ -412,17 +435,17 @@ h6 {
     height:4px;
     width:4px;
     margin-right:6px;
-    background: #3b5998;
+    background: #28a745;
 }
 
-#linkedin::before {
+#fb::before {
     display:inline-block;
     content: '';
     border-radius:100%;
     height:4px;
     width:4px;
     margin-right:6px;
-    background: #fcaf45;
+    background: #4267B2;
 }
 
 #tw::before {
@@ -432,7 +455,7 @@ h6 {
     height: 4px;
     width: 4px;
     margin-right: 6px;
-    background: #55acee;
+    background: #1DA1F2;
 }
 
 #yt::before {
@@ -443,6 +466,16 @@ h6 {
     width: 4px;
     margin-right: 6px;
     background: #c4302b;
+}
+
+#discord::before {
+    display:inline-block;
+    content: '';
+    border-radius:100%;
+    height:4px;
+    width:4px;
+    margin-right:6px;
+    background: #797289;
 }
 
 #media, #address {
@@ -576,15 +609,3 @@ textarea:focus {
 }
 
 /* project+ */
-
-.prev, .next p {
-    color: grey;
-}
-
-.prev p {
-    text-align: left;
-}
-
-.next p {
-    text-align: right;
-}
