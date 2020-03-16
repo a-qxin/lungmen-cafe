@@ -295,7 +295,7 @@ h6 {
 }
 
 .project1 {
-    background: url(assets/project1.jpg) 50% 10%;
+    background: url(./assets/project1.jpg) 50% 10%;
     background-size:cover;
 }
 
@@ -313,7 +313,7 @@ h6 {
 }
 
 .project2 {
-    background: url(assets/project2.jpg) 100% 50%;
+    background: url(./assets/project2.jpg) 100% 50%;
     background-size:cover;
 }
 
@@ -331,7 +331,7 @@ h6 {
 }
 
 .project3 {
-    background: url(assets/project3.jpg) 50% 50%;
+    background: url(./assets/project3.jpg) 50% 50%;
     background-size: cover;
 }
 
@@ -496,7 +496,7 @@ h6 {
 }
 
 .image {
-    background: url(assets/about.jpg) no-repeat 50% 15%;
+    background: url(./assets/about.jpg) no-repeat 50% 15%;
 }
 
 /* contact */
