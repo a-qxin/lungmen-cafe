@@ -2,6 +2,8 @@
 
 Simple HTML/CSS/JS-based + Arknights-themed gallery site.
 
+https://a-qxin.github.io/lungmen-cafe/
+
 #### INSPIRATIONS
 
 - [CodeGrid/harnishh](https://www.youtube.com/c/codegrid)'s portfolio guide
