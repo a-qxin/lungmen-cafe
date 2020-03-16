@@ -17,7 +17,7 @@ Simple HTML/CSS/JS-based + Arknights-themed gallery site.
 
 #### ART (TEMP)
 
-- [Lungmen Cafe](https://www.pixiv.net/en/artworks/77027739) by [Kuhno伍侍_](https://www.pixiv.net/en/users/32321034)
+- [龙门咖啡厅 (Lungmen Cafe)](https://www.pixiv.net/en/artworks/77027739) by [Kuhno伍侍_](https://www.pixiv.net/en/users/32321034)
 - [New Year Arknights Illust](https://twitter.com/_youamo_/status/1216585009361899521) by [_ youamo _](https://twitter.com/_youamo_)
 - [Project3](https://www.wallpapermaiden.com/wallpaper/19888/anime-girl-room-building-artwork-painting) by unknown
 - [Project4](https://webusstatic.akamaized.net/ark_us_web/pc/img/gallery04.ce1b088c.jpg) via [arknights.global](https://www.arknights.global)
