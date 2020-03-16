@@ -18,7 +18,7 @@ html, body {
     }
 }
 
-/* ----- zTypewriter Effect ----- */
+/* ----- Typewriter Effect ----- */
 
 .line {
     width:24em;
@@ -349,7 +349,6 @@ h6 {
 }
 
 .project4 {
-    /* background: url(https://s26.postimg.cc/xb3xhqojt/03_Restaurant_2-_Night_m.png); */
     background:url(https://static.zerochan.net/Arknights.full.2240339.jpg) 0% 50%;
     background-size:cover;
 }

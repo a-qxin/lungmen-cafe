@@ -1,7 +1,28 @@
-# br
+# lungmen café.
 
-personal website.
+Simple HTML/CSS/JS-based + Arknights-themed site.
 
---
+#### INSPIRATIONS
 
-updated 03/14/20.
+- [CodeGrid/harnishh](https://www.youtube.com/c/codegrid)'s portfolio guide
+- [Arknights Global](https://www.arknights.global "Arknights Global")
+
+#### RESOURCES
+
+- [Bootstrap](https://getbootstrap.com "Bootstrap 4")
+- [WOW.js](https://wowjs.uk) / [animate.css](https://daneden.github.io/animate.css/) on-scroll animations
+- [Greensock/GSAP TweenMax](https://greensock.com/tweenmax/ "Greensock/GSAP") nav animation
+- [Roboto](https://fonts.google.com/specimen/Roboto) Google Fonts
+- [Ionicons](https://ionicons.com) on project.html
+
+#### ART (TEMP)
+
+- [Lungmen Cafe](https://www.pixiv.net/en/artworks/77027739) by [Kuhno伍侍_](https://www.pixiv.net/en/users/32321034)
+- [New Year Arknights Illust](https://twitter.com/_youamo_/status/1216585009361899521) by [_ youamo _](https://twitter.com/_youamo_)
+- [Project3](https://www.wallpapermaiden.com/wallpaper/19888/anime-girl-room-building-artwork-painting) by unknown
+- [Project4](https://webusstatic.akamaized.net/ark_us_web/pc/img/gallery04.ce1b088c.jpg) via [arknights.global](https://www.arknights.global)
+- [About](https://webusstatic.akamaized.net/ark_us_web/pc/img/gallery14.5c5bf760.jpg) via [arknights.global](https://www.arknights.global)
+
+—
+
+###### UPDATED 03/15/20
