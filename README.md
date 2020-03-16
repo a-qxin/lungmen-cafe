@@ -1,6 +1,6 @@
 # lungmen café.
 
-Simple HTML/CSS/JS-based + Arknights-themed site.
+Simple HTML/CSS/JS-based + Arknights-themed gallery site.
 
 #### INSPIRATIONS
 
@@ -9,10 +9,10 @@ Simple HTML/CSS/JS-based + Arknights-themed site.
 
 #### RESOURCES
 
-- [Bootstrap](https://getbootstrap.com "Bootstrap 4")
-- [WOW.js](https://wowjs.uk) / [animate.css](https://daneden.github.io/animate.css/) on-scroll animations
-- [Greensock/GSAP TweenMax](https://greensock.com/tweenmax/ "Greensock/GSAP") nav animation
-- [Roboto](https://fonts.google.com/specimen/Roboto) Google Fonts
+- [Bootstrap 4](https://getbootstrap.com "Bootstrap 4")
+- [WOW.js](https://wowjs.uk) / [animate.css](https://daneden.github.io/animate.css/) for on-scroll animations
+- [Greensock/GSAP TweenMax](https://greensock.com/tweenmax/ "Greensock/GSAP") for nav animation
+- [Roboto](https://fonts.google.com/specimen/Roboto) via Google Fonts
 - [Ionicons](https://ionicons.com) on project.html
 
 #### ART (TEMP)
