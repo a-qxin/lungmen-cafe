@@ -295,7 +295,7 @@ h6 {
 }
 
 .project1 {
-    background: url(https://i.redd.it/xabdiulr0sq31.jpg) 50% 10%;
+    background: url(assets/project1.jpg) 50% 10%;
     background-size:cover;
 }
 
@@ -313,7 +313,7 @@ h6 {
 }
 
 .project2 {
-    background: url(https://c.wallhere.com/photos/fb/e5/Arknights_anime_plants_cafe_coffee_donuts_cake_saria_arknights-1774879.jpg!d) 100% 50%;
+    background: url(assets/project2.jpg) 100% 50%;
     background-size:cover;
 }
 
@@ -331,7 +331,7 @@ h6 {
 }
 
 .project3 {
-    background: url(https://www.wallpapermaiden.com/wallpaper/19888/download/1280x720/anime-girl-room-building-artwork-painting.jpg) 50% 50%;
+    background: url(assets/project3.jpg) 50% 50%;
     background-size: cover;
 }
 
@@ -349,7 +349,7 @@ h6 {
 }
 
 .project4 {
-    background:url(https://static.zerochan.net/Arknights.full.2240339.jpg) 0% 50%;
+    background:url(assets/project4.jpg) 0% 50%;
     background-size:cover;
 }
 
@@ -496,7 +496,7 @@ h6 {
 }
 
 .image {
-    background: url(https://upload.wikimedia.org/wikipedia/commons/1/1b/Arknights.jpg) no-repeat 50% 15%;
+    background: url(assets/about.jpg) no-repeat 50% 15%;
 }
 
 /* contact */
