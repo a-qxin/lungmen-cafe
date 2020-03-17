@@ -112,6 +112,15 @@ nav #menu li {
 
 nav #menu li a:hover {
     text-decoration:none;
+    color:grey;
+}
+
+nav #menu li a {
+    color:white;
+    -webkit-transition:color .2s ease-in; 
+    -moz-transition:color .2s ease-in; 
+    -o-transition:color .2s ease-in; 
+    transition:color .2s ease-in;
 }
 
 #toggle {
