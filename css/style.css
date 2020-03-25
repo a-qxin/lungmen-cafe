@@ -467,6 +467,16 @@ h6 {
     background: #1DA1F2;
 }
 
+#ig::before {
+    display: inline-block;
+    content: '';
+    border-radius: 100%;
+    height: 4px;
+    width: 4px;
+    margin-right: 6px;
+    background: #C13584;
+}
+
 #yt::before {
     display: inline-block;
     content: '';
@@ -547,7 +557,7 @@ h6 {
 /* contact */
 
 #contact-form {
-    margin: 5% 1.4%;
+    margin: 5% 10%;
 }
 
 #contact-form ul {
