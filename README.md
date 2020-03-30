@@ -17,7 +17,7 @@ https://a-qxin.github.io/lungmen-cafe/
 - [Roboto](https://fonts.google.com/specimen/Roboto) via Google Fonts
 - [Ionicons](https://ionicons.com) on project.html
 
-#### ART (TEMP)
+#### ART
 
 - [龙门咖啡厅 (Lungmen Cafe)](https://www.pixiv.net/en/artworks/77027739) by [Kuhno伍侍_](https://www.pixiv.net/en/users/32321034)
 - [New Year Arknights Illust](https://twitter.com/_youamo_/status/1216585009361899521) by [_ youamo _](https://twitter.com/_youamo_)
