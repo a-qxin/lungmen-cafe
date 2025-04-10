@@ -310,7 +310,7 @@ h6 {
 }
 
 .project1:after {
-    content: "arknights cafe.";
+    /* content: "arknights cafe."; */
     font-family: "Roboto";
     font-size: 36px;
     position: relative;
@@ -328,7 +328,7 @@ h6 {
 }
 
 .project2:after {
-    content: "rhine lab coffee shop.";
+    /* content: "rhine lab coffee shop."; */
     font-family: "Roboto";
     font-size: 36px;
     position:relative;
@@ -346,7 +346,7 @@ h6 {
 }
 
 .project3:after {
-    content: "bolivar coffee bean.";
+    /* content: "bolivar coffee bean."; */
     font-family: "Roboto";
     font-size: 36px;
     position: relative;
@@ -364,7 +364,7 @@ h6 {
 }
 
 .project4:after {
-    content: "classical colombian design.";
+    /* content: "classical colombian design."; */
     font-family: "Roboto";
     font-size:36px;
     position:relative;
@@ -626,5 +626,3 @@ textarea:focus {
           width: 98%;
     }
 }
-
-/* project+ */
